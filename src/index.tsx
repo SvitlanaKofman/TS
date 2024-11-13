@@ -8,6 +8,7 @@ import Lesson08 from "./lessons/lesson08/Lesson08";
 import FetchDog from "./components/fetchDog/FetchDog";
 import FetchFox from "./components/fetchFox/FetchFox";
 import Lesson09 from "./lessons/lesson09/Lesson09";
+import CatFacts from "./components/fetchCat/FetchCat";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -21,6 +22,7 @@ root.render(
     {/* <Lesson08/> */}
     {/* <FetchDog/> */}
     {/* <FetchFox/> */}
-    <Lesson09/>
+    {/* <Lesson09/> */}
+    <CatFacts/>
   </>
 );
